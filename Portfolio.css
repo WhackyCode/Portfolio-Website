@@ -9,17 +9,17 @@
 
 @font-face {
     font-family: Poppins-Regular;
-    src: url('D:\\Portfolio\\Fonts\\Poppins-Regular.ttf');
+    src: url('Fonts/Poppins-Regular.ttf');
 }
 
 @font-face {
     font-family: Poppins-Bold;
-    src: url('D:\\Portfolio\\Fonts\\Poppins-Bold.ttf');
+    src: url('Fonts/Poppins-Bold.ttf');
 }
 
 @font-face {
     font-family: Walshes;
-    src: url('D:\\Portfolio\\Fonts\\walshes.ttf');
+    src: url('Fonts/walshes.ttf');
 }
 
 body {
