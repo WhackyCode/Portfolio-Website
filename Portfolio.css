@@ -1,0 +1,372 @@
+:root {
+    --poppins-reg : Poppins-Regular;
+    --poppins-bold : Poppins-Bold;
+    --Walshes : Walshes;
+    --red : #FF2400;
+}
+
+
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('D:\\Portfolio\\Fonts\\Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('D:\\Portfolio\\Fonts\\Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Walshes;
+    src: url('D:\\Portfolio\\Fonts\\walshes.ttf');
+}
+
+body {
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    background-color: #003366;
+    background-color: #024C88;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    letter-spacing: 1px;
+}
+
+.navbar h1 {
+    margin-left: 30px;
+    font-family: var(--poppins-bold);
+}
+.navbar span {
+    color: goldenrod;
+    font-size: 40px;
+}
+
+.links{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.links a {
+    text-decoration: none;
+    margin-right: 100px;
+    font-family: var(--poppins-reg);
+    color: white;
+}
+.home {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    margin: 80px auto;
+    font-family: var(--poppins-reg);
+}
+.home .mid img {
+    width: 350px;
+    height: 500px;
+    margin-left: 80px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+}
+.home .bottom i {
+    font-size: 70px;
+    color: goldenrod;
+    margin-top: 0px;
+    padding-left: 750px;
+}
+.home .left h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.home .left {
+    margin-left: 90px;
+    margin-top: 130px;
+}
+.home .left span {
+    color: #daa520 ;
+}
+
+.home .right .icons {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 60px;
+    margin-left: 90px;
+    row-gap: 30px;
+    font-size: 23px;
+}
+.home .right a {
+    color: white;
+}
+.home .right .line {
+    border: 1px solid white;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 0px;
+}
+
+.contact {
+    font-family: var(--poppins-reg);
+    margin-top: 20px;
+    text-align: center;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    height: 40px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.journey {
+    display: flex;
+    flex-flow: column wrap;
+}
+.j{
+    font-family: var(--poppins-reg);
+    color: goldenrod;
+    text-align: center;
+}
+.journey h3 {
+    font-family: var(--poppins-reg);
+    text-align: center;
+}
+
+.journey .first {
+    margin-top: 20px;
+    font-family: var(--poppins-reg);
+    position: relative;
+    width: 550px;
+    border-left: 2px solid white;
+    margin-left: 700px;
+    padding-left: 30px;
+}
+.first .dot1 {
+    position: absolute;
+    left: -8px;
+    top: 26px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 3px solid goldenrod;
+    border-radius: 50%;
+}
+.first p {
+    margin-left: 10px;
+}
+.first .yr18 {
+    position: absolute;
+    top: 25px;
+    left : -110px;
+    font-family: var(--poppins-reg);
+    color: goldenrod;
+}
+
+.journey .second {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-right: 50px;
+    width: 550px;
+    font-family: var(--poppins-reg);
+    border-right: 2px solid white;
+}
+.yr21 {
+    position: absolute;
+    color: goldenrod;
+    right: -105px;
+    top: 19px;
+}
+
+.dot2 {
+    position: absolute;
+    left: 593.5px;
+    top: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 3px solid goldenrod;
+    border-radius: 50%;
+}
+
+.journey .third {
+    margin-top: 20px;
+    font-family: var(--poppins-reg);
+    position: relative;
+    width: 550px;
+    border-left: 2px solid white;
+    margin-left: 700px;
+    padding-left: 30px;
+}
+.third .dot3 {
+    position: absolute;
+    left: -8px;
+    top: 26px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 3px solid goldenrod;
+    border-radius: 50%;
+}
+.third p {
+    margin-left: 10px;
+}
+.third .yr24 {
+    position: absolute;
+    top: 23px;
+    left : -150px;
+    font-family: var(--poppins-reg);
+    color: goldenrod;
+}
+.journey .bottom i {
+    font-size: 70px;
+    color: goldenrod;
+    margin-top: 100px;
+    padding-left: 750px;
+}
+.skills h1 {
+    font-family: var(--poppins-reg);
+    text-align: center;
+    color: goldenrod;
+}
+.skills {
+    margin-top: 70px;
+}
+.skills .container {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 25px;
+    column-gap: 25px;
+    margin : 20px 200px;
+    justify-content: center;
+}
+
+.c, .c2, .css, .html, .js, .java, .gh, .git, .sql, .mv, .python {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px black;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+.skills img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.c:hover, .c2:hover, .css:hover, .html:hover, .js:hover, .java:hover, .gh:hover, .git:hover, .sql:hover, .mv:hover, .python:hover  {
+    background-color: goldenrod;
+}
+
+.skills .bottom i {
+    font-size: 70px;
+    color: goldenrod;
+    margin-top: 50px;
+    padding-left: 750px;
+}
+
+@media only screen and (max-width : 480px) {
+    body {
+        margin : 0px;
+        padding : 0px;
+        box-sizing: border-box;
+        background-color: #003366;
+        background-color: #024C88;
+        color: white;
+    }
+    
+    .navbar .logo {
+        text-align: center;
+        width: 390px;
+    }
+    .navbar .links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .navbar .links a {
+        margin: 3vw;
+    }
+    .home {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .home .right .line {
+        display: none;
+    }
+    .home .left {
+        margin-top: 20px;
+        width: 300px;
+        height: 500px;
+        margin-left: 40px;
+    }
+    .home .contact {
+        margin-left: 70px;
+    }
+    .home .mid {
+        display: none;
+    }
+    .home .right .icons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 180px;
+        margin-left: 110px;
+        column-gap: 30px;
+    }
+    .bottom {
+        display: none;
+    }
+    /* Responsive code for home page done */
+    /* Journey Page incoming */
+    .journey {
+        width: 370px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .journey .j {
+        margin-left: 105px;
+    }
+    .journey .first {
+        width: 370px;
+        margin-left: 120px;
+    }
+    .journey .second {
+        text-justify: inter-word;
+        width: 190px;
+        margin-left: 20px;
+    }
+    .journey .dot2 {
+        left: 234px;
+    }
+    .journey .third {
+        width: 290px;
+        margin-left: 152px;
+        text-justify: inter-word;
+    }
+    .skills .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 180px;
+    }
+    .c, .c2, .css, .html, .js, .java, .gh, .git, .sql, .mv, .python {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        border-radius: 5px;
+        box-shadow: 5px 5px 6px black;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+}
